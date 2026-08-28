@@ -61,5 +61,6 @@ def validate_year(year):
     return 1000 <= year_number <= current_year
 
 
+
 def validate_category(category):
     return isinstance(category, str) and bool(category.strip())
